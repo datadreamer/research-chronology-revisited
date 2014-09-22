@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="62"
+   name=""
+   committed-date="2006-02-07T13:20:38.428934Z"
+   url="http://svn.deliciouspython.python-hosting.com/branches/pydelicious-0.3.2/pydeliciouslibs/elementtree"
+   last-author="delpy"
+   kind="dir"
+   uuid="de0cbe23-f808-0410-b5d7-c5077ae9b7ce"
+   revision="101"/>
+<entry
+   committed-rev="62"
+   name="ElementTree.py"
+   text-time="2006-04-10T09:14:06.000000Z"
+   committed-date="2006-02-07T13:20:38.428934Z"
+   checksum="6f5de929965e5366356201d9c8c6b3de"
+   last-author="delpy"
+   kind="file"
+   prop-time="2006-04-10T09:14:06.000000Z"/>
+<entry
+   committed-rev="62"
+   name="SgmlopXMLTreeBuilder.py"
+   text-time="2006-04-10T09:14:06.000000Z"
+   committed-date="2006-02-07T13:20:38.428934Z"
+   checksum="f497da02b84e0c2726df370c2e623178"
+   last-author="delpy"
+   kind="file"
+   prop-time="2006-04-10T09:14:06.000000Z"/>
+<entry
+   committed-rev="62"
+   name="TidyTools.py"
+   text-time="2006-04-10T09:14:06.000000Z"
+   committed-date="2006-02-07T13:20:38.428934Z"
+   checksum="4a1c3da4aa1d47738d83b6f22ef6ecab"
+   last-author="delpy"
+   kind="file"
+   prop-time="2006-04-10T09:14:06.000000Z"/>
+<entry
+   committed-rev="62"
+   name="HTMLTreeBuilder.py"
+   text-time="2006-04-10T09:14:06.000000Z"
+   committed-date="2006-02-07T13:20:38.428934Z"
+   checksum="9506cff52124abc2defa7820a7d39b3f"
+   last-author="delpy"
+   kind="file"
+   prop-time="2006-04-10T09:14:06.000000Z"/>
+<entry
+   committed-rev="62"
+   name="ElementInclude.py"
+   text-time="2006-04-10T09:14:06.000000Z"
+   committed-date="2006-02-07T13:20:38.428934Z"
+   checksum="c52f8492edd75eb11e858addd9ce9f6b"
+   last-author="delpy"
+   kind="file"
+   prop-time="2006-04-10T09:14:06.000000Z"/>
+<entry
+   committed-rev="62"
+   name="__init__.py"
+   text-time="2006-04-10T09:14:06.000000Z"
+   committed-date="2006-02-07T13:20:38.428934Z"
+   checksum="4b7a1c841a92714e6034c97c69d97edc"
+   last-author="delpy"
+   kind="file"
+   prop-time="2006-04-10T09:14:06.000000Z"/>
+<entry
+   committed-rev="62"
+   name="SimpleXMLTreeBuilder.py"
+   text-time="2006-04-10T09:14:06.000000Z"
+   committed-date="2006-02-07T13:20:38.428934Z"
+   checksum="e4ef1bb5afc93bfb321796ad86430e54"
+   last-author="delpy"
+   kind="file"
+   prop-time="2006-04-10T09:14:06.000000Z"/>
+<entry
+   committed-rev="62"
+   name="TidyHTMLTreeBuilder.py"
+   text-time="2006-04-10T09:14:06.000000Z"
+   committed-date="2006-02-07T13:20:38.428934Z"
+   checksum="f072e09c74c581d9d4ca4fa7d4575d70"
+   last-author="delpy"
+   kind="file"
+   prop-time="2006-04-10T09:14:06.000000Z"/>
+<entry
+   committed-rev="62"
+   name="ElementPath.py"
+   text-time="2006-04-10T09:14:06.000000Z"
+   committed-date="2006-02-07T13:20:38.428934Z"
+   checksum="4b19897445862edd9db3cbbbcf58b449"
+   last-author="delpy"
+   kind="file"
+   prop-time="2006-04-10T09:14:06.000000Z"/>
+<entry
+   committed-rev="62"
+   name="SimpleXMLWriter.py"
+   text-time="2006-04-10T09:14:06.000000Z"
+   committed-date="2006-02-07T13:20:38.428934Z"
+   checksum="e93da740a026e1eccf834d5fba28cb6d"
+   last-author="delpy"
+   kind="file"
+   prop-time="2006-04-10T09:14:06.000000Z"/>
+<entry
+   committed-rev="62"
+   name="XMLTreeBuilder.py"
+   text-time="2006-04-10T09:14:06.000000Z"
+   committed-date="2006-02-07T13:20:38.428934Z"
+   checksum="d858c5d66209f3f4cb652792aacf0c6d"
+   last-author="delpy"
+   kind="file"
+   prop-time="2006-04-10T09:14:06.000000Z"/>
+</wc-entries>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="62"
+   name=""
+   committed-date="2006-02-07T13:20:38.428934Z"
+   url="http://svn.deliciouspython.python-hosting.com/branches/pydelicious-0.3.2/pydeliciouslibs/feedparser"
+   last-author="delpy"
+   kind="dir"
+   uuid="de0cbe23-f808-0410-b5d7-c5077ae9b7ce"
+   revision="101"/>
+<entry
+   committed-rev="62"
+   name="LICENSE"
+   text-time="2006-04-10T09:14:05.000000Z"
+   committed-date="2006-02-07T13:20:38.428934Z"
+   checksum="287b861c3b68057ac7690617ec758709"
+   last-author="delpy"
+   kind="file"
+   prop-time="2006-04-10T09:14:05.000000Z"/>
+<entry
+   committed-rev="62"
+   name="__init__.py"
+   text-time="2006-04-10T09:14:05.000000Z"
+   committed-date="2006-02-07T13:20:38.428934Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="delpy"
+   kind="file"
+   prop-time="2006-04-10T09:14:05.000000Z"/>
+<entry
+   committed-rev="62"
+   name="feedparser.py"
+   text-time="2006-04-10T09:14:05.000000Z"
+   committed-date="2006-02-07T13:20:38.428934Z"
+   checksum="a825fd96c63863b98482cf6ace482ab8"
+   last-author="delpy"
+   kind="file"
+   prop-time="2006-04-10T09:14:05.000000Z"/>
+<entry
+   committed-rev="62"
+   name="setup.py"
+   text-time="2006-04-10T09:14:05.000000Z"
+   committed-date="2006-02-07T13:20:38.428934Z"
+   checksum="d0afae02d3e49ed73ca737e3774f728f"
+   last-author="delpy"
+   kind="file"
+   prop-time="2006-04-10T09:14:05.000000Z"/>
+<entry
+   committed-rev="62"
+   name="README"
+   text-time="2006-04-10T09:14:05.000000Z"
+   committed-date="2006-02-07T13:20:38.428934Z"
+   checksum="224bfc2f365ea5deaa6f73e56c2290c4"
+   last-author="delpy"
+   kind="file"
+   prop-time="2006-04-10T09:14:05.000000Z"/>
+</wc-entries>
