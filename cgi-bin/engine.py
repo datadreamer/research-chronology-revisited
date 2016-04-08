@@ -12,7 +12,7 @@ print("<postlist>")
 for entry in entries:
     title = entry.text.encode("ascii", "replace").decode("utf-8")
     href = entry["href"].encode("ascii", "replace").decode("utf-8")
-    dt = int(entry["add_date"])
+    dt = int(entry["add_date"]) + 21600
     fulldt = datetime.fromtimestamp(int(dt)).strftime('%Y-%m-%d %H:%M:%S')
     date,time = fulldt.split()
     tags = entry["tags"].replace(" ","").replace(","," ")
