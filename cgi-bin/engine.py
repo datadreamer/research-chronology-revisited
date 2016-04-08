@@ -1,60 +1,26 @@
-#!/usr/bin/python
+#!/home/asiegel/dev/bin/python
 
-# RESEARCH CHRONOLOGY 2
-# by Aaron Siegel
+import sys
+from datetime import datetime
+from BeautifulSoup import BeautifulSoup
 
-import cgi, string, pydelicious
-
-revision = "03"
-
-#----------------------------------------------------------
-
-def getAll(u,p):
-    d = pydelicious.apiNew(u,p)
-    posts = d.posts_all()
-    return posts
-
-#----------------------------------------------------------
-
-def makeXML(postlist):
-    xml_out = "<postlist>"
-    for p in postlist:
-        #print p
-        xml_out += "<post>"
-        xml_out += "<date>"
-        date,time = p["dt"].split("T")
-        xml_out += str(date)
-        xml_out += "</date>"
-        xml_out += "<time>"
-        xml_out += str(time.rstrip("Z"))
-        xml_out += "</time>"
-        xml_out += "<desc>"
-        xml_out += p["description"].encode("ascii", "replace").replace("&", "and")
-        xml_out += "</desc>"
-        xml_out += "<url>"
-        xml_out += str(p["href"].replace("&", "%26"))
-        xml_out += "</url>"
-        xml_out += "<tags>"
-        xml_out += p["tags"].encode("ascii", "replace").replace("&", "")
-        xml_out += "</tags>"
-        xml_out += "</post>"
-    xml_out += "</postlist>"
-    print xml_out
-
-#----------------------------------------------------------
-# INITIALIZE PROGRAM
-
-def main():
-    #print "Content-Type: text/plain\n"
-    print "Content-Type: text/xml\n"                # define output type for web browser
-    form = cgi.parse()                              # seperate query string into dictionary
-    if form.has_key("user"):
-        username = form["user"][0]
-        password = form["pass"][0]
-    else:
-        username = "USERNAME_GOES_HERE"
-        password = "PASSWORD_GOES_HERE"
-    posts = getAll(username, password)
-    makeXML(posts)
-
-main()
+infile = open("delicious.html")
+html = BeautifulSoup(infile)
+entries = html.findAll("a")
+print("Content-Type: text/xml\n")
+print("<postlist>")
+for entry in entries:
+    title = entry.text.encode("ascii", "replace").decode("utf-8")
+    href = entry["href"].encode("ascii", "replace").decode("utf-8")
+    dt = int(entry["add_date"])
+    fulldt = datetime.fromtimestamp(int(dt)).strftime('%Y-%m-%d %H:%M:%S')
+    date,time = fulldt.split()
+    tags = entry["tags"].replace(" ","").replace(","," ")
+    print("<post>")
+    print("<date>"+str(date)+"</date>")
+    print("<time>"+str(time)+"</time>")
+    print("<desc>"+title+"</desc>")
+    print("<url>"+str(href)+"</url>")
+    print("<tags>"+str(tags)+"</tags>")
+    print("</post>")
+print("</postlist>")
